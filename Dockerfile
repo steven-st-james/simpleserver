@@ -36,5 +36,5 @@ ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 
 #Add a volume
-VOLUME www /var/datastore
+VOLUME /var/datastore
 # another line commented out
